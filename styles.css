@@ -1,0 +1,84 @@
+body {
+  --main-color: #2563eb;
+  --text-color: #222;
+  --background-color: #f2f2f2;
+  --white-color: #fff;
+  --border-color: #ccc;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  background-image: url('./images/computer.jpg');
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--white-color);
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--white-color);
+}
+
+.content-block {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.section-title {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: var(--main-color);
+}
+
+img {
+  margin: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.form-field {
+  margin: 15px;
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+textarea {
+  margin: 5px;
+  padding: 8px;
+}
+
+.submit-button {
+  padding: 8px 15px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--white-color);
+}

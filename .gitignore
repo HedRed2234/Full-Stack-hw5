@@ -1,0 +1,12 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Секрети
+.env
+.env.*
+
+# Тимчасові файли редакторів
+.vscode/
+*.log
